@@ -3,6 +3,16 @@
   align-items: center;
   overflow-x: scroll;
   margin-left: 2rem;
+
+}
+
+.featured-playlist img {
+  opacity: 0.6;
+  transition: opacity 0.2s linear;
+}
+
+.featured-playlist img:hover {
+  opacity: 1;
 }
 
 ::-webkit-scrollbar {
@@ -18,23 +28,29 @@ background-color: rgb(32, 15, 96);
 }
 
 .featured-playlist img {
-  max-height: 250px;
+  max-width: 24em;
   border-radius: 10px;
-  margin: 2rem 1rem 1rem 0rem;
+  margin: 1.5rem 0rem 0rem 0rem;
   cursor: pointer;
 }
 
-.featured-playlist span, p {
-  font-size: 18px;
+.featured-playlist span, .featured-playlist p {
+  font-size: 1.5rem;
   font-family: 'Montserrat';
-  margin: .5rem 0rem .875rem 0rem;
+  margin: .875rem 0rem 0rem 0rem;
 }
 
 .featured-playlist p {
   color: gray;
-  font-size: 12px;
+  font-size: .875rem;
 }
 
 .featured-playlist span {
   color: #e5e5e5e7;
+}
+
+.stardust, .mikevella, .best-singles, .indie {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
 }

@@ -41,11 +41,14 @@
 }
 
 a {
+  opacity: 1;
   color: gray;
+  opacity: 0.6;
+  transition: opacity 0.2s linear;
 }
 
 a:hover {
-  color: white;
+  opacity: 1;
 }
 
 .playlist-options a:hover, .config-options a:hover {

@@ -1,8 +1,10 @@
 @import url(./css/aside-bar.css);
 @import url(./css/feat-plalist.css);
+@import url(./css/profile-viewers.css);
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -17,17 +19,18 @@ body {
 .main-container {
   background: linear-gradient(140deg, rgb(32, 15, 46), rgb(32, 15, 86));
   grid-column: 2 / 3;
-  height: 100vh;
+  /* height: 100%; */
 }
 
 .aside-bar {
   background-color: #040517;
-  height: 100vh;
+  height: 100%;
   color: #e5e5e5e7;
 }
 
-h1 {
+h2 {
   font-family: "Montserrat";
+  font-size: 2rem;
   color: #e5e5e5e7;
   margin: 2rem 0rem 0rem 1.5rem;
 }

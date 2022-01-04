@@ -1,0 +1,51 @@
+
+.container-views {
+  font-family: "Montserrat";
+  margin-left: 2rem;
+}
+/* IMG CONFIGS */
+.container-views .img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2rem 0rem 0rem 0rem;
+  margin-right: 15px;
+  background-size: cover;
+}
+
+.v1 .img {
+  background-image: url(/assets/view1.jpg);
+}
+
+.v2 .img {
+  background-image: url(/assets/view2.jpg);
+}
+
+.v3 .img {
+  background-image: url(/assets/view3.jpg);
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  opacity: 0.6;
+  transition: opacity 0.2s linear;
+}
+
+.view:hover {
+  opacity: 1;
+}
+
+.info p {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.view span {
+  font-size: .875rem;
+  margin-right: 7rem;
+  color: gray;
+}

@@ -1,0 +1,53 @@
+.aside-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-view {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Montserrat';
+  font-size: 1.3rem;
+  word-break: break-all;
+  text-align: start;
+}
+
+.profile-icon {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.profile-view span {
+  margin: 20px 0px 0px 20px;
+}
+
+.profile-view p {
+  font-size: 12px;
+}
+
+.playlist-options, .config-options  {
+  list-style: none;
+  font-family: 'Red Hat Text';
+  margin: 2rem 0rem 1rem 3rem;
+  padding-top: 1rem;
+  border-top: solid 1px gray;
+  width: 50%;
+}
+
+.playlist-options li, .config-options li {
+  margin: .5rem 0rem .5rem 0rem;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+.playlist-options a:hover, .config-options a:hover {
+}
+

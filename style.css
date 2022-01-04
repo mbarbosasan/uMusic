@@ -1,0 +1,59 @@
+@import url(./css/aside-bar.css);
+@import url(./css/feat-plalist.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+}
+
+.main-container {
+  background: linear-gradient(140deg, rgb(32, 15, 46), rgb(32, 15, 86));
+  grid-column: 2 / 3;
+  height: 100vh;
+}
+
+.aside-bar {
+  background-color: #040517;
+  height: 100vh;
+  color: #e5e5e5e7;
+}
+
+h1 {
+  font-family: "Montserrat";
+  color: #e5e5e5e7;
+  margin: 2rem 0rem 0rem 1.5rem;
+}
+
+.search-box {
+  margin: 2rem 0rem 0rem 5rem;
+  background: none;
+  border-style: none;
+  width: 30vw;
+  height: 2rem;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: #e5e5e5e7;
+}
+
+.search-box::placeholder {
+  font-size: 18px;
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.icon-search {
+  position: absolute;
+  color: #e5e5e5e7;
+  margin: 2rem 0rem 0rem 2.5rem;
+  font-size: 1.675rem;
+}

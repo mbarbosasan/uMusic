@@ -1,0 +1,40 @@
+.featured-playlist {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  margin-left: 2rem;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: rgb(32, 15, 96);
+}
+::-webkit-scrollbar-thumb:horizontal {
+  height: 30px;
+  background-color: rgb(32, 15, 56);
+  -webkit-border-radius: 1ex;
+}
+
+.featured-playlist img {
+  max-height: 250px;
+  border-radius: 10px;
+  margin: 2rem 1rem 1rem 0rem;
+  cursor: pointer;
+}
+
+.featured-playlist span, p {
+  font-size: 18px;
+  font-family: 'Montserrat';
+  margin: .5rem 0rem .875rem 0rem;
+}
+
+.featured-playlist p {
+  color: gray;
+  font-size: 12px;
+}
+
+.featured-playlist span {
+  color: #e5e5e5e7;
+}

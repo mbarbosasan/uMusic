@@ -9,14 +9,16 @@
   font-family: "Montserrat";
   margin-left: 2rem;
 }
+
 /* IMG CONFIGS */
 .container-views .img {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   border-radius: 8px;
   margin-top: 1rem;
-  margin-right: 15px;
+  margin-right: 0.5rem;
   background-size: cover;
+  cursor: pointer;
 }
 
 .v1 .img {
@@ -33,7 +35,6 @@
 
 .view {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   opacity: 0.6;
   transition: opacity 0.2s linear;
@@ -45,13 +46,13 @@
 
 .info p {
   color: var(--text-primary);
-  font-size: 1rem;
-  padding-bottom: 2rem;
+  font-size: .875rem;
+  padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
 .view span {
-  font-size: .875rem;
-  margin-right: 7rem;
+  font-size: .6rem;
+  margin-right: 5rem;
   color: var(--text-secondary);
 }

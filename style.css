@@ -22,14 +22,32 @@ a {
 
 body {
   display: grid;
-  grid-template-columns: 20vw 80vw;
-  /* overflow: hidden; */
+  grid-template-columns: 20% 80%;
 }
 
 .main-container {
   background-image: linear-gradient(to right, #0d1226 0%, #1f1734 100%);
   grid-column: 2 / 3;
   height: 100%;
+}
+
+@media (max-width: 900px) {
+  body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .aside-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1;
+  }
+
+
 }
 
 .aside-bar {
@@ -49,11 +67,12 @@ h2 {
   margin: 2rem 0rem 0rem 5rem;
   background: none;
   border-style: none;
-  width: 30vw;
+  width: 70vw;
   height: 2rem;
   font-size: 15px;
   font-family: "Montserrat";
   color: var(--text-secondary);
+  word-break: break-all;
 }
 
 .search-box::placeholder {
@@ -72,8 +91,9 @@ h2 {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .icon {

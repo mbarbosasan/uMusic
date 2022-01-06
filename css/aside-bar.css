@@ -52,6 +52,27 @@
   font-family: 'Montserrat';
 }
 
+@media (max-width: 900px) {
+
+  .playlist-options, .config-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .875rem;
+    border-style: none;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .playlist-options li, .config-options li {
+    margin-left: 10px;
+  }
+
+  .profile-icon {
+    width: 60px;
+  }
+
+}
 .playlist-options a, .config-options a, .profile-view a {
   margin-left: 8px;
 }

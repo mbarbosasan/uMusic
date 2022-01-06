@@ -7,11 +7,12 @@
 
 
 .t .img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 10px;
+  cursor: pointer;
   opacity: 0.6;
   transition: opacity 0.2s linear;
 }
@@ -54,9 +55,9 @@
 
 .tracklist {
   display: flex;
+  width: 300px;
   margin: 2rem 0rem 0rem 2rem;
   overflow-x: scroll;
-  width: 80%;
 }
 
 .tracklist p {

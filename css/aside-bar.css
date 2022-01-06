@@ -46,10 +46,6 @@
 
 @media (max-width: 900px) {
 
-  .aside-bar {
-    flex-direction: row;
-  }
-
   .playlist-options, .config-options {
     display: flex;
     align-items: center;
@@ -80,6 +76,10 @@
     font-size: 20px;
     margin-right: 50px;
   }
+
+  .aside-bar {
+    flex-direction: row;
+  }
 }
 .playlist-options a, .config-options a, .profile-view a {
   margin-left: 8px;
@@ -87,6 +87,7 @@
 
 .profile-view p{
   margin-top: 10px;
+  cursor: pointer;
 }
 
 a {

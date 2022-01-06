@@ -25,7 +25,6 @@
   width: 100%;
   height: 100%;
   font-size: 1.5rem;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .aside-bar .navbar-open, .aside-bar .navbar-close, .navbar {
@@ -37,5 +36,6 @@
   .navbar.active .navbar-close,
   .navbar {
     display: block;
+    cursor: pointer;
   }
 }

@@ -41,8 +41,11 @@ body {
   }
 
   .aside-bar {
-    display: flex;
     justify-content: space-between;
+  }
+
+  .container {
+    justify-content: center;
   }
 }
 

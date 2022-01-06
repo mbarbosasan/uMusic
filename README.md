@@ -40,4 +40,4 @@ Preview Mobile:
 
 # Live Site:
 
-- ![Site](https://mbarbosasan.github.io/uMusic/)
+- [Site](https://mbarbosasan.github.io/uMusic/)

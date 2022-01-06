@@ -14,17 +14,8 @@
 
 ## Índice
 
-* [Devchallenge](#devchallenge) 
 * [Desafio](#desafio)
 * [Techs](#techs)
-* [Como começar](#como-começar)
-* [Dicas](#dicas)  
-  * [Cores](#cores)
-  * [Modelo](#modelo)
-  * [Imagens](#imagens)
-  * [Icones](#icones)
-  * [Tipo de fonte](#tipo-de-fonte)
-* [Compartilhe](#compartilhe)
 
 # Desafio
 O desafio consistia em reproduzir um dashboard de um sistema de músicas semelhante ao Spotify, onde é possível visualizar playlists, tracks e artistas.
@@ -33,6 +24,7 @@ Preview Desktop:
 ![Preview Desktop](/design/desktop.png)
 
 Preview Mobile:
+
 ![Preview Mobile](/design/mobile.png)
 
 ## Requisitos:

@@ -1,4 +1,13 @@
 
+@media (max-width: 600px) {
+
+  .navbar-open, .navbar.active .navbar-close, .navbar {
+    display: block;
+  }
+
+}
+
+
 :root { 
   --primary: #040517;
   --text-primary: #e5e5e5e7;
@@ -39,12 +48,4 @@
 
 .navbar-open, .navbar-close, .navbar {
   display: none;
-}
-
-@media (max-width: 600px) {
-  
-  .navbar-open, .navbar.active .navbar-close, .navbar {
-    display: block;
-  }
-
 }

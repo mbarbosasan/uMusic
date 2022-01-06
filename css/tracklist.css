@@ -1,0 +1,86 @@
+:root { 
+  --primary: #040517;
+  --text-primary: #e5e5e5e7;
+  --text-secondary: #f5f5f555;
+  --scroll: rgb(32, 15, 86);
+  }
+
+
+.t .img {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  opacity: 0.6;
+  transition: opacity 0.2s linear;
+}
+
+.t .img:hover {
+  opacity: 1;
+}
+
+.track1, .track2, .track3, .track4, .track5, .track6, .track7 {
+  margin-left: 20px;
+}
+
+.track1 .img {
+  background-image: url(/assets/track1.jpg);
+}
+
+.track2 .img {
+  background-image: url(/assets/track2.jpg);
+}
+
+.track3 .img {
+  background-image: url(/assets/track3.jpg);
+}
+
+.track4 .img {
+  background-image: url(/assets/track4.jpg);
+}
+
+.track5 .img {
+  background-image: url(/assets/track5.jpg);
+}
+
+.track6 .img {
+  background-image: url(/assets/track6.jpg);
+}
+
+.track7 .img {
+  background-image: url(/assets/track7.jpg);
+}
+
+.tracklist {
+  display: flex;
+  margin: 2rem 0rem 0rem 2rem;
+  overflow-x: scroll;
+  width: 80%;
+}
+
+.tracklist p {
+  font-family: 'Montserrat';
+  font-size: .875em;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+  color: var(--text-primary);
+}
+
+.tracklist p:nth-child(3) {
+  font-family: 'Montserrat';
+  font-size: .6rem;
+  color: var(--text-secondary);
+}
+
+.tracklist::-webkit-scrollbar {
+  height: 10px;
+}
+.tracklist::-webkit-scrollbar-track-piece  {
+background-color: var(--primary);
+}
+.tracklist::-webkit-scrollbar-thumb:horizontal {
+  height: 30px;
+  background-color: var(--scroll);
+  -webkit-border-radius: 1ex;
+}

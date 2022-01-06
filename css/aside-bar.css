@@ -1,5 +1,13 @@
+:root { 
+  --primary: #040517;
+  --text-primary: #e5e5e5e7;
+  --text-secondary: #f5f5f555;
+  --scroll: rgb(32, 15, 86);
+  }
+
 .aside-bar {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
 }
@@ -8,8 +16,8 @@
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Montserrat';
-  font-size: 1.3rem;
+  font-family: "Montserrat";
+  font-size: 1rem;
   word-break: break-all;
   text-align: start;
 }
@@ -20,29 +28,40 @@
 }
 
 .profile-view span {
-  margin: 20px 0px 0px 20px;
+  margin: 10px 0px 0px 10px;
 }
 
 .profile-view p {
-  font-size: 12px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
 }
 
-.playlist-options, .config-options  {
+.playlist-options,
+.config-options {
   list-style: none;
-  font-family: 'Red Hat Text';
+  font-family: "Montserrat";
   margin: 2rem 0rem 1rem 3rem;
   padding-top: 1rem;
-  border-top: solid 1px gray;
+  border-top: solid 1px var(--text-secondary);
   width: 50%;
 }
 
-.playlist-options li, .config-options li {
-  margin: .5rem 0rem .5rem 0rem;
+.playlist-options li,
+.config-options li {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  font-family: 'Montserrat';
+}
+
+.playlist-options a, .config-options a, .profile-view a {
+  margin-left: 8px;
+}
+
+.profile-view p{
+  margin-top: 10px;
 }
 
 a {
-  opacity: 1;
-  color: gray;
+  color: var(--text-primary);
   opacity: 0.6;
   transition: opacity 0.2s linear;
 }
@@ -51,6 +70,4 @@ a:hover {
   opacity: 1;
 }
 
-.playlist-options a:hover, .config-options a:hover {
-}
 

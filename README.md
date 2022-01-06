@@ -3,7 +3,7 @@
     <img src="https://imgur.com/ipLHFFb.gif" alt="Logo" width="1000">
 
   <p align="center">
-     Página de biblioteca de músicas
+     Página de biblioteca de músicas [EM CONSTRUÇÃO]
        <br/>
     <br/>
     <a href="https://github.com/mannoeu/landing-page-music">Desafio</a>

@@ -1,3 +1,9 @@
+:root { 
+  --primary: #040517;
+  --text-primary: #e5e5e5e7;
+  --text-secondary: #f5f5f555;
+  --scroll: rgb(32, 15, 86);
+  }
 
 .container-views {
   font-family: "Montserrat";
@@ -5,11 +11,10 @@
 }
 /* IMG CONFIGS */
 .container-views .img {
-  height: 100px;
-  width: 100px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 2rem 0rem 0rem 0rem;
+  height: 80px;
+  width: 80px;
+  border-radius: 8px;
+  margin-top: 1rem;
   margin-right: 15px;
   background-size: cover;
 }
@@ -28,6 +33,7 @@
 
 .view {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   opacity: 0.6;
   transition: opacity 0.2s linear;
@@ -38,8 +44,8 @@
 }
 
 .info p {
-  color: white;
-  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-size: 1rem;
   padding-bottom: 2rem;
   padding-top: 1rem;
 }
@@ -47,5 +53,5 @@
 .view span {
   font-size: .875rem;
   margin-right: 7rem;
-  color: gray;
+  color: var(--text-secondary);
 }

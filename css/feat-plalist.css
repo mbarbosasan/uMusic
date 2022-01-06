@@ -1,39 +1,66 @@
+:root { 
+  --primary: #040517;
+  --text-primary: #e5e5e5e7;
+  --text-secondary: #f5f5f555;
+  --scroll: rgb(32, 15, 86);
+  }
+
 .featured-playlist {
   display: flex;
   align-items: center;
   overflow-x: scroll;
   margin-left: 2rem;
-
 }
 
-.featured-playlist img {
+.featured-playlist .img {
+  width: 20em;
+  height: 15em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 1.5rem 0rem 0rem 0rem;
+  cursor: pointer;
   opacity: 0.6;
   transition: opacity 0.2s linear;
 }
 
-.featured-playlist img:hover {
+.stardust .img {
+  background-image: url(/assets/playlist1.jpg);
+}
+
+.mikevella .img {
+  background-image: url(/assets/playlist2.jpg);
+}
+
+.best-singles .img {
+  background-image: url(/assets/playlist3.jpg);
+}
+
+.indie .img {
+  background-image: url(/assets/playlist4.jpg);
+}
+
+.featured-playlist .img {
+  opacity: 0.6;
+  transition: opacity 0.2s linear;
+}
+
+.featured-playlist .img:hover {
   opacity: 1;
 }
 
-::-webkit-scrollbar {
+.featured-playlist::-webkit-scrollbar {
   height: 10px;
 }
-::-webkit-scrollbar-track-piece  {
-background-color: rgb(32, 15, 96);
+.featured-playlist::-webkit-scrollbar-track-piece  {
+background-color: var(--primary);
 }
-::-webkit-scrollbar-thumb:horizontal {
+.featured-playlist::-webkit-scrollbar-thumb:horizontal {
   height: 30px;
-  background-color: rgb(32, 15, 56);
+  background-color: var(--scroll);
   -webkit-border-radius: 1ex;
 }
-
-.featured-playlist img {
-  max-width: 24em;
-  border-radius: 10px;
-  margin: 1.5rem 0rem 0rem 0rem;
-  cursor: pointer;
-}
-
 .featured-playlist span, .featured-playlist p {
   font-size: 1.5rem;
   font-family: 'Montserrat';
@@ -47,6 +74,7 @@ background-color: rgb(32, 15, 96);
 
 .featured-playlist span {
   color: #e5e5e5e7;
+  margin-bottom: 1rem;
 }
 
 .stardust, .mikevella, .best-singles, .indie {

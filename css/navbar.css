@@ -1,21 +1,3 @@
-
-@media (max-width: 600px) {
-
-  .navbar-open, .navbar.active .navbar-close, .navbar {
-    display: block;
-  }
-
-}
-
-
-:root { 
-  --primary: #040517;
-  --text-primary: #e5e5e5e7;
-  --text-secondary: #f5f5f555;
-  --scroll: rgb(32, 15, 86);
-  }
-
- 
 .navbar.active {
   position: absolute;
   top: 0px;
@@ -46,6 +28,14 @@
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.navbar-open, .navbar-close, .navbar {
+.aside-bar .navbar-open, .aside-bar .navbar-close, .navbar {
   display: none;
+}
+
+@media (max-width: 600px) {
+  .aside-bar .navbar-open,
+  .navbar.active .navbar-close,
+  .navbar {
+    display: block;
+  }
 }

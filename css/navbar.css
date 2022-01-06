@@ -33,7 +33,7 @@
 
 @media (max-width: 600px) {
   .aside-bar .navbar-open,
-  .navbar.active .navbar-close,
+  .aside-bar .navbar.active .navbar-close,
   .navbar {
     display: block;
     cursor: pointer;

@@ -1,4 +1,3 @@
-
 .t .img {
   width: 80px;
   height: 80px;
@@ -14,36 +13,42 @@
   opacity: 1;
 }
 
-.track1, .track2, .track3, .track4, .track5, .track6, .track7 {
+.track1,
+.track2,
+.track3,
+.track4,
+.track5,
+.track6,
+.track7 {
   margin-left: 20px;
 }
 
 .track1 .img {
-  background-image: url(/assets/track1.jpg);
+  background-image: url(../assets/track1.jpg);
 }
 
 .track2 .img {
-  background-image: url(/assets/track2.jpg);
+  background-image: url(../assets/track2.jpg);
 }
 
 .track3 .img {
-  background-image: url(/assets/track3.jpg);
+  background-image: url(../assets/track3.jpg);
 }
 
 .track4 .img {
-  background-image: url(/assets/track4.jpg);
+  background-image: url(../assets/track4.jpg);
 }
 
 .track5 .img {
-  background-image: url(/assets/track5.jpg);
+  background-image: url(../assets/track5.jpg);
 }
 
 .track6 .img {
-  background-image: url(/assets/track6.jpg);
+  background-image: url(../assets/track6.jpg);
 }
 
 .track7 .img {
-  background-image: url(/assets/track7.jpg);
+  background-image: url(../assets/track7.jpg);
 }
 
 .tracklist {
@@ -54,24 +59,24 @@
 }
 
 .tracklist p {
-  font-family: 'Montserrat';
-  font-size: .875em;
+  font-family: "Montserrat";
+  font-size: 0.875em;
   text-align: center;
   margin: 5px 0px 5px 0px;
   color: var(--text-primary);
 }
 
 .tracklist p:nth-child(3) {
-  font-family: 'Montserrat';
-  font-size: .6rem;
+  font-family: "Montserrat";
+  font-size: 0.6rem;
   color: var(--text-secondary);
 }
 
 .tracklist::-webkit-scrollbar {
   height: 10px;
 }
-.tracklist::-webkit-scrollbar-track-piece  {
-background-color: var(--primary);
+.tracklist::-webkit-scrollbar-track-piece {
+  background-color: var(--primary);
 }
 .tracklist::-webkit-scrollbar-thumb:horizontal {
   height: 30px;

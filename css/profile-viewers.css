@@ -23,15 +23,15 @@
 }
 
 .v1 .img {
-  background-image: url(/assets/view1.jpg);
+  background-image: url(../assets/view1.jpg);
 }
 
 .v2 .img {
-  background-image: url(/assets/view2.jpg);
+  background-image: url(../assets/view2.jpg);
 }
 
 .v3 .img {
-  background-image: url(/assets/view3.jpg);
+  background-image: url(../assets/view3.jpg);
 }
 
 .view {

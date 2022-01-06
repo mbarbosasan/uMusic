@@ -1,0 +1,53 @@
+
+:root { 
+  --primary: #040517;
+  --text-primary: #e5e5e5e7;
+  --text-secondary: #f5f5f555;
+  --scroll: rgb(32, 15, 86);
+  }
+
+ 
+.navbar.active {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.navbar.active .navbar-close {
+  position: fixed;
+  z-index: 3;
+  left: 80%;
+  top: 5%;
+}
+
+.navbar.active .playlist-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--primary);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navbar-open, .navbar-close, .navbar {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar-open {
+    display: block;
+  }
+
+  .navbar.active .navbar-close, .navbar {
+    display: block;
+  }
+
+}

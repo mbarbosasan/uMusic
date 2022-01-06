@@ -55,9 +55,9 @@
 
 .tracklist {
   display: flex;
-  width: 300px;
-  margin: 2rem 0rem 0rem 2rem;
+  width: 320px;
   overflow-x: scroll;
+  margin: 2rem 0rem 0rem 0rem;
 }
 
 .tracklist p {

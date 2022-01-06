@@ -8,6 +8,7 @@
 .container-views {
   font-family: "Montserrat";
   margin-left: 2rem;
+  margin-right: 15rem;
 }
 
 /* IMG CONFIGS */
@@ -19,6 +20,12 @@
   margin-right: 0.5rem;
   background-size: cover;
   cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .container-views {
+    margin-right: 0px;
+  }
 }
 
 .v1 .img {
@@ -46,13 +53,13 @@
 
 .info p {
   color: var(--text-primary);
-  font-size: .875rem;
+  font-size: 1rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
 .view span {
-  font-size: .6rem;
-  margin-right: 5rem;
+  font-size: .875rem;
+  padding-right: 4rem;
   color: var(--text-secondary);
 }

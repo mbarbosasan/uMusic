@@ -3,7 +3,7 @@
     <img src="https://imgur.com/ipLHFFb.gif" alt="Logo" width="1000">
 
   <p align="center">
-     Página de biblioteca de músicas [EM CONSTRUÇÃO]
+     Página de biblioteca de músicas [CONCLUÍDO]
        <br/>
     <br/>
     <a href="https://github.com/mannoeu/landing-page-music">Desafio</a>
@@ -26,15 +26,17 @@
   * [Tipo de fonte](#tipo-de-fonte)
 * [Compartilhe](#compartilhe)
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
-
 # Desafio
-O desafio consiste em reproduzir um dashboard de um sistema de músicas semelhante ao Spotify, onde é possível visualizar playlists, tracks e artistas.
-O modelo final está disponível na pasta "design"
+O desafio consistia em reproduzir um dashboard de um sistema de músicas semelhante ao Spotify, onde é possível visualizar playlists, tracks e artistas.
+
+Preview Desktop:
+![Preview Desktop](/design/desktop.png)
+
+Preview Mobile:
+![Preview Mobile](/design/mobile.png)
 
 ## Requisitos:
-- Sua página deverá conter uma barra lateral fixa com as opções de menu<br>
+- Sua página deverá conter uma barra lateral fixa com as opções de menu<br> :
 - Sua página deverá contar com listas de visualização das playlists, dos perfils e das músicas<br>
 - Sua página deverá ser responsiva
 
@@ -44,28 +46,6 @@ O modelo final está disponível na pasta "design"
 # Techs: 
 - HTML, CSS e JavaScript
 
-# Como começar:
-1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade! Se puder, mostre seus resultado aqui no repositório também, criando uma Issue :)<br>
+# Live Site:
 
-# Dicas
-
-## Cores:
-Preto: #040517;
-Branco: #e5e5e5e7;<br>
-Azul: rgb(32, 15, 86);
-
-## Modelo:
-O modelo final desktop e mobile está disponível na pasta `./design`
-
-## Imagens
-As imagens utilizadas estão disponíveis na pasta `./assets`
-
-## Icones
-Para os ícones, recomendamos que utilize alguma biblioteca, como o Font Awesome
-
-## Tipo de fonte:
-- Montserrat
-
+- ![Site](/https://mbarbosasan.github.io/uMusic/)

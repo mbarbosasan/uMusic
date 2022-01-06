@@ -26,19 +26,19 @@
 }
 
 .stardust .img {
-  background-image: url(/assets/playlist1.jpg);
+  background-image: url(./assets/playlist1.jpg);
 }
 
 .mikevella .img {
-  background-image: url(/assets/playlist2.jpg);
+  background-image: url(./assets/playlist2.jpg);
 }
 
 .best-singles .img {
-  background-image: url(/assets/playlist3.jpg);
+  background-image: url(./assets/playlist3.jpg);
 }
 
 .indie .img {
-  background-image: url(/assets/playlist4.jpg);
+  background-image: url(./assets/playlist4.jpg);
 }
 
 .featured-playlist .img {

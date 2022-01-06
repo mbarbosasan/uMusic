@@ -42,11 +42,8 @@
 }
 
 @media (max-width: 600px) {
-  .navbar-open {
-    display: block;
-  }
-
-  .navbar.active .navbar-close, .navbar {
+  
+  .navbar-open, .navbar.active .navbar-close, .navbar {
     display: block;
   }
 

@@ -103,3 +103,13 @@ h2 {
 .icon:hover {
   transition: opacity 0.2s linear;
 }
+
+
+@media (max-width: 600px) {
+  .aside-bar .navbar-open,
+  .aside-bar .navbar.active .navbar-close,
+  .navbar {
+    display: block;
+    cursor: pointer;
+  }
+}

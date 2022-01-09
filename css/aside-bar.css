@@ -67,7 +67,6 @@
 
 @media (max-width: 600px) {
   .playlist-options, .config-options {
-    background-color: tomato;
     display: none;
   }
 
